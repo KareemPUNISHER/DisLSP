@@ -23,7 +23,7 @@ client.on('message', message => {
       message.channel.send(`:white_check_mark: تم تغيير الحالة بنجاح`)
   } else
   if (message.content.startsWith(adminprefix + 'sets')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/One");
+    client.user.setGame(argresult, "https://www.twitch.tv/abdalkrim_badr");
       message.channel.send(`:white_check_mark: تم تغيير الحالة بنجاح `)
   }
   if (message.content.startsWith(adminprefix + 'setname')) {
